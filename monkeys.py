@@ -18,7 +18,13 @@ def write_shakespeare():
 	print "Result:", attempt
 	print "Trials:", trials
 
+"""After many thousands of tries, this function did not even create 
+a real word, let alone a target phrase. Maybe I just have to wait 
+longer."""
+
 """For the next version, I want to compare the attempt string with 
 the goal string and store the correct characters in a list at that 
 character's index. Then make guess only for the unsolved characters 
 and see how long that takes."""
+
+#Machine learning???
